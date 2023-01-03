@@ -1,0 +1,25 @@
+body {
+    background-color: #DBE2EF;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-top-width: 5px;
+    border-top-color: grey;
+    height: 1px;
+    width: 5%;
+}
+h1{
+    color: #3F72AF;
+}
+h3{
+    color: #3F72AF;
+}
+.center-content{
+    margin: auto;
+    padding: 5px;
+}
+.center-text{
+    margin: auto;
+    text-align: center;
+}
