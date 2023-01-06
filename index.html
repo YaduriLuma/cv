@@ -1,103 +1,80 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Personal Site</title>
         <link rel="stylesheet" href="css/styles.css">
-    </head>    
+        <link rel="icon" href="favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link
+            rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link
+            href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+            rel="stylesheet">
+        <title>Yago Ribeiro</title>
+    </head>
     <body>
-        <table cellspacing="20" class="center-content">
-            <tr>
-                <td>
-                    <img src="images/profile-picture.png" alt="Foto de perfil"
-                        width="150px">
-                </td>
-                <td>
-                    <h1>Yago Duarte Ribeiro</h1>
-                    <p><em>Suporte técnico na <strong><a href="#">Lumanet LTDA</a></strong></em></p>
-                    <p>Desenvolvedor de Software.</p>
-                </td>
-            </tr>
-        </table>        
-        <hr>
-        <br>
-        <h3 class="center-text">Experiências</h3>
-        <table cellspacing="10" class="center-content">
-            <tr>
-                <th>Data</th>
-                <th>Trabalho</th>
-            </tr>
-            <tr>
-                <td>2020 - 2021</td>
-                <td>Dafiti</td>
-            </tr>
-            <tr>
-                <td>2021 - 2021</td>
-                <td>Romanato Alimentos</td>
-            </tr>
-            <tr>
-                <td>2021 - 2022</td>
-                <td>Definity</td>
-            </tr>
-            <tr>
-                <td>2022</td>
-                <td>Lumanet</td>
-            </tr>
-        </table>
-        <hr>
-        <br>
-        <h3 class="center-text">Habilidades</h3>
-        <table cellspacing="10" class="center-content">
-            <tr>
-                <td>
-                    <table>
-                        <tr>
-                            <td>
-                                <p>HTML</p>
-                            </td>
-                            <td>
-                                <p>★★★☆☆</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>PYTHON</p>
-                            </td>
-                            <td>
-                                <p>★★★★☆</p>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-                <td>
-                    <table>
-                        <tr>
-                            <td>
-                                <p>CSS</p>
-                            </td>
-                            <td>
-                                <p>★★☆☆☆</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p>JAVASCRIPT</p>
-                            </td>
-                            <td>
-                                <p>★★☆☆☆</p>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-        <hr>
-        <div class="center-text">
-            <a href="hobbies.html">Hobbies</a><br>
-            <a href="contact-me.html">Contato</a>
-        </div>
+        <header>            
+            <div class="navbarTop">
+                <div class="navbar-img">
+                    <a href="#"><img src="images/profile.png" alt="Eu"></a>
+                </div>
+                <ul class="ul-nav">
+                    <li class="li-nav-active li-nav"><a href="#">Sobre</a></li>
+                    <li class="li-nav"><a href="#">Trabalhos</a></li>
+                    <li class="li-nav"><a href="#">Notas</a></li>
+                </ul>
+            </div>
+            <div class="top-container center">
+                <img src="images/cloud.png" alt="nuvem-img" class="top-cloud"><br>
+                <h1>Sou Yago</h1>
+                <h2>um programador.</h2>
+                <img src="images/cloud.png" alt="nuvem-img"
+                    class="bottom-cloud">
+                <img src="images/montain.png" alt="montain-img"
+                    class="img-montain">
+            </div>
+        </header>
         
+        <div class="middle-container center">
+            <div class="profile">
+                <img src="images/profile.png" alt="Yago" class="profile-img">
+                <h2>Olá.</h2>
+                <p>Lorem ipsum dolor sit amet, vitae volutpat, dui conubia,
+                    dolor urna. Non auctor, montes nulla distinctio.</p>
+            </div>
+            <hr>
+            <div class="skills">
+                <h2>Minhas Habilidades.</h2>
+                <div class="skill-row">
+                    <img class="python-img" src="images/python.png"
+                        alt="Python">
+                    <h3>Python</h3>
+                    <p>Lorem ipsum dolor sit amet, quis in duis, iaculis id
+                        felis. Consectetuer vestibulum, nunc urna lectus, erat
+                        ligula. Hendrerit nam, lectus ante, ut lorem eros.</p>
+                </div>
+                <div class="skill-row">
+                    <img class="html-img" src="images/html.png" alt="Html">
+                    <h3>HTML</h3>
+                    <p>Lorem ipsum dolor sit amet, mauris sed consectetuer.
+                        Etiam et eu, bibendum interdum, lacus quis mauris.
+                        Curabitur wisi, quisque vel eu, rutrum nam.</p>
+                </div>
+            </div>
+            <hr>
+            <div class="contact-me">
+                <h2>Get In Touch</h2>
+                <h3>Lorem ipsum dolor sit amet, non elit.</h3>
+                <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus
+                    sodales, tellus donec dui, ornare erat.</p><br>
+                <a class="btn" href="mailto:yaduri16@gmail.com">CONTACT ME</a>
+            </div>
+        </div>
+        <div class="center bottom-container">
+            <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+            <a class="footer-link" href="https://twitter.com/">Twitter</a>
+            <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+            <p>©2023 Yago Ribeiro.</p>
+        </div>
     </body>
 </html>
